@@ -1,0 +1,30 @@
+{
+    "name": "node-branch-io",
+    "version": "1.0.0",
+    "main": "./branch",
+    "description": "Branch.io SDK for Node JS",
+    "author": {
+        "name": "Starchup Inc",
+        "email": "geoffroy@starchup.com",
+        "url": "http://starchup.com"
+    },
+    "keywords": [
+        "starchup"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/Starchup/node-branch-io.git"
+    },
+    "engines": {
+        "node": ">= 0.10"
+    },
+    "dependencies": {
+        "request-promise": "2.0.1"
+    },
+    "scripts": {},
+    "readmeFilename": "README.md",
+    "bugs": {
+        "url": "https://github.com/Starchup/node-branch-io/issues"
+    },
+    "homepage": "https://github.com/Starchup/node-branch-io"
+}
