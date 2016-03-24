@@ -41,9 +41,16 @@ var app = {
 
         var path = '/v1/app';
         return request(path, 'POST', data).then(function(res) {
-            if (res && res.branch_key) return res.branch_key;
+            if (res) return res;
             return Promise.reject(res);
         });
+    },
+    update: function(data) {
+        if (!data.branch_key) return Promise.reject(new Error('Missing branch_key'));
+        if (!data.branch_secret) return Promise.reject(new Error('Missing branch_secret'));
+
+        var path = '/v1/app/' + data.branch_key;
+        return request(path, 'PUT', data);
     }
 };
 

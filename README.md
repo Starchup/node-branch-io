@@ -15,3 +15,9 @@ branch = require(node-branch-io);
 branch.app.create({PARAMETERS});
 ```
 See parameters & return result at https://github.com/BranchMetrics/Deferred-Deep-Linking-Public-API#creating-a-new-branch-app-config
+
+* Updating a Branch App Config
+```
+branch.app.update({PARAMETERS});
+```
+See parameters & return result at https://github.com/BranchMetrics/Deferred-Deep-Linking-Public-API#updating-a-branch-app-config
