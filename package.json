@@ -1,6 +1,6 @@
 {
     "name": "node-branch-io",
-    "version": "1.0.1",
+    "version": "2.0.0",
     "main": "./branch",
     "description": "Branch.io SDK for Node JS",
     "author": {
@@ -19,7 +19,8 @@
         "node": ">= 0.10"
     },
     "dependencies": {
-        "request-promise": "2.0.1"
+        "request": "2.79.x",
+        "request-promise": "4.1.x"
     },
     "scripts": {},
     "readmeFilename": "README.md",
